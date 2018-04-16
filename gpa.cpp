@@ -9,7 +9,7 @@ double calculateGPA(int numCourses, double* courseGrades);
 int main(int argc, char* argv[])
 {
   if(argc<2 || (argc-1)%2 == 1){
-    cerr << "Usage: " << argv[0] << "course letterGrade" << endl;
+    cerr << "Usage: " << argv[0] << " course letterGrade" << endl;
     return 1;
   }
   string courseNames[5] = {""};
